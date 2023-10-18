@@ -42,8 +42,8 @@
 --	 INNER JOIN Generos G ON G.Id = FG.IdGenero
 --	 WHERE G.Genero LIKE 'Mi%'
 
--- Questão 12
--- SELECT F.Nome, A.PrimeiroNome, A.UltimoNome, EF.Papel FROM ElencoFilme EF
---	 INNER JOIN Atores A ON A.Id = EF.IdAtor  
---	 INNER JOIN Filmes F ON F.Id = EF.IdFilme 
+--Questão 12
+SELECT F.Nome, A.PrimeiroNome, A.UltimoNome, EF.Papel FROM ElencoFilme EF
+  INNER JOIN Atores A ON A.Id = EF.IdAtor  
+  INNER JOIN Filmes F ON F.Id = EF.IdFilme 
 
