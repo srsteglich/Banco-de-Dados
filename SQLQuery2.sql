@@ -1,8 +1,8 @@
---SELECT * FROM Filmes
---SELECT * FROM Atores 
---SELECT * FROM ElencoFilme 
---SELECT * FROM FilmesGenero
---SELECT * FROM Generos
+SELECT * FROM Filmes
+SELECT * FROM Atores 
+SELECT * FROM ElencoFilme 
+SELECT * FROM FilmesGenero
+SELECT * FROM Generos
 
 -- Questão 1
 SELECT Nome,Ano FROM Filmes
